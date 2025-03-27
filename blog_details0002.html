@@ -1,0 +1,667 @@
+<!DOCTYPE html>
+<html lang="pt-Br" dir="ltr">
+  <head>
+    <!-- required meta -->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- #keywords -->
+    <meta
+      name="keywords"
+      content="boot, Bootstrap, It Solutions , Business Services, ERP, HTML, CSS"
+    />
+    <!-- #description -->
+    <meta
+      name="description"
+      content="IT Solutions & Business Services Multipurpose Responsive Website"
+    />
+    <!-- #title -->
+    <title>Giornata Top - IT Solutions & Business Services</title>
+    <!-- #favicon -->
+    <link
+      rel="shortcut icon"
+      href="assets/images/fav.png"
+      type="image/x-icon"
+    />
+    <!-- AOS  -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
+	<!-- <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" /> -->
+    <!-- ==== css dependencies start ==== -->
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <!-- ICON  -->
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+	
+	
+    <header class="header-section header-menu w-100 pt-1 pt-lg-0 pb-3 pb-lg-0">
+      <div class="navbar_mainhead header-fixed w-100">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-12">
+              <nav
+                class="navbar navbar-expand-lg position-relative d-flex align-items-center"
+              >
+                <div>
+                  <a
+                    href="index.html"
+                    class="navbar-brand d-none d-sm-flex align-items-center gap-2"
+                  >
+                    <img
+                      src="./assets/images/logo.png"
+                      class="logo"
+                      alt="logo"
+                    />
+                  </a>
+                  <a
+                    href="index.html"
+                    class="navbar-brand d-sm-none d-flex align-items-center gap-2"
+                  >
+                    <img
+                      src="./assets/images/fav.png"
+                      class="logo"
+                      alt="logo"
+                    />
+                  </a>
+                </div>
+                <div class="collapse navbar-collapse" id="navbar-content">
+                  <ul
+                    class="navbar-nav d-flex align-items-lg-center gap-5 gap-lg-1 gap-xl-4 gap-xxl-5 py-2 py-lg-0 ms-2 ms-xl-10 ms-xxl-20 ps-0 ps-xxl-10 align-self-center"
+                  >
+                    <li class="dropdown">
+                      <a href="index.html" class="fs-ten">Home</a>
+                    </li>
+					<li class="dropdown show-dropdown dropdown_btn">
+                      <button
+                        type="button"
+                        aria-label="Navbar Dropdown Button"
+                        class="dropdown-toggle dropdown-nav d-flex gap-1 align-items-center fs-ten"
+                      >
+                        Serviços <i class="ph-bold ph-caret-down"></i>
+                      </button>
+                      <ul class="dropdown-menu drop_menu">
+                        <li>
+                          <a class="dropdown-item fs-ten" href="index.html #secao-servicos"
+                            >Desenvolvimento de Site</a
+                          >
+                        </li>
+						<li>
+                          <a class="dropdown-item fs-ten" href="index.html #secao-servicos"
+                            >Desenvolvimento de App</a
+                          >
+                        </li>
+                        <li>
+                          <a
+                            class="dropdown-item fs-ten"
+                            href="index.html #secao-servicos"
+                            >Automação Web</a
+                          >
+                        </li>
+                        
+						<li>
+                          <a class="dropdown-item fs-ten" href="index.html #secao-consultoria"
+                            >Consultoria ERP Totvs</a
+                          >
+                        </li>
+                       
+                      </ul>
+                    </li>
+                    <li class="dropdown show-dropdown dropdown_btn">
+                      <button
+                        type="button"
+                        aria-label="Navbar Dropdown Button"
+                        class="dropdown-toggle dropdown-nav d-flex gap-1 align-items-center fs-ten"
+                      >
+                        Sobre <i class="ph-bold ph-caret-down"></i>
+                      </button>
+                      <ul class="dropdown-menu drop_menu">
+						
+                        <li>
+                          <a class="dropdown-item fs-ten" href="index.html #secao-time"
+                            >Quem Somos</a
+                          >
+                        </li>
+						<li>
+                          <a class="dropdown-item fs-ten" href="index.html #secao-faq"
+                            >FAQs</a
+                          >
+                        </li>
+                     
+                       
+                        <li>
+                          <a class="dropdown-item fs-ten" href="./termos/termo.html" target="_blank"
+                            >Termo de Uso</a
+                          >
+                        </li>
+                        <li>
+                          <a class="dropdown-item fs-ten" href="./termos/politica.html" target="_blank"
+                            >Política de Privacidade</a
+                          >
+                        </li>
+                      </ul>
+                    </li>
+                    <li class="dropdown show-dropdown">
+                      <a href="index.html #secao-testemunho" class="fs-ten"
+                        >Testemunhos</a
+                      >
+                    </li>
+                    <li class="dropdown show-dropdown">
+                      <a href="index.html #secao-contato" class="fs-ten">Contato</a>
+                    </li>
+                    
+                    <li class="dropdown show-dropdown">
+                      <a href="index.html #secao-blog" class="fs-ten">Blog</a>
+                    </li>
+                  </ul>
+                </div>
+                <div>
+                  <div
+                    class="right-area custom-pos position-relative d-flex gap-0 gap-xl-5 align-items-center"
+                  >
+                    <button
+                      id="toggle"
+                      class="dark_btn d-flex justify-content-center align-items-center fs-three p6-color mood_toggle"
+                    >
+                      <i class="ph-fill ph-moon fs-five" id="mood_icon"></i>
+                    </button>
+                    <a
+                      href="index.html #secao-contato"
+                      class="btn p6-color d-none d-xl-block"
+                    >
+                      <span class="btn-text-one">Whatsapp</span>
+                      <span class="btn-text-two">Iniciar</span>
+                    </a>
+                  </div>
+                  <button
+                    class="navbar-toggler mt-1"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    aria-label="Navbar Toggler"
+                    data-bs-target="#navbar-content"
+                    aria-expanded="true"
+                    id="nav-icon3"
+                  >
+                    <span></span><span></span><span></span><span></span>
+                  </button>
+                </div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+	<!-- header-section end -->
+	
+    <!-- banner section start -->
+    <div class="banner">
+      <div
+        class="banner_bg_color opacity-75 d-flex align-items-center justify-content-center h-100"
+      >
+        <div class="process_heading w-100 text-center">
+          <h4 class="fs-two p3-color fw-semibold mb-2 text-center">
+            Detalhes do Blog
+          </h4>
+          <span class="p6-color fs-ten d-block text-center"
+            >Bem-vindo ao nosso blog! Mergulhe em dicas de especialistas em tecnologia, insights do setor</span
+          >
+        </div>
+      </div>
+    </div>
+
+    <div class="brandcumb bg1-color">
+      <div class="container">
+        <div class="d-flex align-items-center brandcumb">
+          <span class="fs-ten p6-color"
+            >Home > <span class="p3-color">Detalhes do Blog</span>
+          </span>
+        </div>
+      </div>
+    </div>
+
+    <!-- banner section end -->
+
+    <!--Blog Details Section star -->
+    <section class="pt-120 pb-120 blog_details_section">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8">
+            <div>
+              <div>
+                <img src="./assets/images/blog2.1.png" alt="..." class="w-full" />
+              </div>
+              <h4 class="p4-color fs-three fw-semibold mt-4 mt-md-8 mb-2">
+                Oportunidades de Emprego na Área de Tecnologia em Portugal
+              </h4>
+              <span class="p4-color fs-eleven">Sônia Trantino - Fev 02,2025</span>
+
+<h4 class="p4-color fs-four fw-semibold my-4 my-md-8 mb-2">
+                O Crescimento do Setor Tecnológico em Portugal
+              </h4>
+
+<p class="p4-color mb-3 mb-md-6 mt-4 mt-md-8">
+                Nos últimos anos, Portugal tem se destacado como um dos principais hubs tecnológicos da Europa. O crescimento exponencial do setor foi impulsionado por iniciativas governamentais, incentivos fiscais, qualidade de vida e um ecossistema inovador que atrai empresas e profissionais do mundo todo. Lisboa e Porto são os principais polos tecnológicos do país, mas outras regiões também estão se destacando.
+</p>
+
+
+<h4 class="p4-color fs-four fw-semibold my-4 my-md-8 mb-2">
+                Profissões em Alta no Mercado Tecnológico
+              </h4>
+
+
+<p class="p4-color mb-3 mb-md-6">
+				
+O mercado de tecnologia em Portugal está aquecido e busca constantemente por talentos em diversas áreas. Algumas das profissões mais demandadas incluem: <br>
+<br>
+&nbsp;&nbsp;🔵 Desenvolvedor de Software (Front-end, Back-end, Full Stack)
+<br>
+&nbsp;&nbsp;🔵 Engenheiro de Dados e Cientista de Dados
+<br>
+&nbsp;&nbsp;🔵 Especialista em Cibersegurança
+<br>
+&nbsp;&nbsp;🔵 Engenheiro DevOps e Cloud
+<br>
+&nbsp;&nbsp;🔵 Gestor de Projetos de TI
+<br>
+&nbsp;&nbsp;🔵 Analista de Qualidade (QA)
+<br>
+&nbsp;&nbsp;🔵 Designer UX/UI 
+</p>
+
+<p class="p4-color mb-3 mb-md-6">
+Empresas de tecnologia, startups e multinacionais têm grande demanda por esses profissionais, oferecendo bons salários e benefícios atrativos.
+</p>
+    
+<h4 class="p4-color fs-four fw-semibold my-4 my-md-8 mb-2">
+                Empresas e Startups em Destaque
+              </h4>
+
+	
+<p class="p4-color mb-3 mb-md-6">
+Portugal abriga várias startups inovadoras, muitas delas reconhecidas internacionalmente. Algumas empresas que frequentemente recrutam talentos da área de tecnologia incluem: <br>
+<br>
+&nbsp;&nbsp;🔵 OutSystems (desenvolvimento low-code)
+<br>
+&nbsp;&nbsp;🔵 Talkdesk (soluções para call centers)
+<br>
+&nbsp;&nbsp;🔵 Feedzai (inteligência artificial para segurança financeira)
+<br>
+&nbsp;&nbsp;🔵 Farfetch (e-commerce de luxo)
+<br>
+&nbsp;&nbsp;🔵 Critical Software (soluções de engenharia e software)
+<br>
+&nbsp;&nbsp;🔵 Revolut e Bolt (fintechs e mobilidade)
+<br>
+</p>
+			  
+              <p class="p4-color mb-3 mb-md-6">
+Além disso, grandes empresas como Google, Microsoft e Amazon têm escritórios em Portugal, criando ainda mais oportunidades.
+              </p>
+			  
+<h4 class="p4-color fs-four fw-semibold my-4 my-md-8 mb-2">
+               Como Conseguir um Emprego na Área de Tecnologia em Portugal
+              </h4>			  
+			  
+			  
+              <p class="p4-color mb-3 mb-md-6">
+Para quem deseja trabalhar na área de tecnologia em Portugal, algumas dicas são essenciais:<br>
+<br>
+	1.Aprimorar o Currículo e LinkedIn: Empresas em Portugal valorizam um CV bem estruturado e um LinkedIn atualizado com certificações e experiência relevante.<br>
+<br>
+	2.Buscar Vagas em Plataformas Especializadas: Alguns sites populares para busca de emprego incluem LinkedIn Jobs, Landing.jobs, ITJobs.pt e Glassdoor.<br>
+<br>
+	3.Apostar em Certificações: Certificações em cloud (AWS, Azure), segurança da informação (CISSP, CEH) e desenvolvimento (Java, Python) aumentam a competitividade.<br>
+<br>
+	4.Participar de Eventos e Comunidades: Web Summit, Portugal Digital Summit e meetups de tecnologia são excelentes oportunidades de networking.<br>
+<br>
+	5.Conhecer os Vistos e Permissões de Trabalho: Para estrangeiros, existem programas como o "Tech Visa" e o "D7 Visa" que facilitam a imigração para profissionais de TI.<br>
+	
+              </p>
+			  
+			  <h4 class="p4-color fs-four fw-semibold my-4 my-md-8 mb-2">
+               Salários e Qualidade de Vida
+              </h4>	
+			  
+			  
+              <p class="p4-color mb-3 mb-md-6">
+Os salários variam de acordo com a experiência e a localização, mas a média salarial para um desenvolvedor de software júnior gira em torno de 25.000 a 35.000 euros por ano, enquanto profissionais mais experientes podem ganhar acima de 60.000 euros anuais. Além disso, Portugal oferece uma excelente qualidade de vida, com custo relativamente acessível em comparação a outros países europeus.
+              </p>
+			  
+<h4 class="p4-color fs-four fw-semibold my-4 my-md-8 mb-2">
+               Conclusão
+              </h4>				  
+			  
+			  
+			  
+			  
+              <p class="p4-color mb-3 mb-md-6">
+Portugal está se consolidando como um destino promissor para profissionais de tecnologia, oferecendo excelentes oportunidades de emprego, um mercado em crescimento e uma qualidade de vida invejável. Se você busca um novo desafio profissional, vale a pena explorar as possibilidades que o país tem a oferecer.
+
+              </p>
+              
+			  
+			  
+            </div>
+          </div>
+
+          <div class="col-lg-4">
+            <div class="blog_sticky">
+              <h3 class="p4-color mb-3 mb-md-6">Dicas importantes</h3> 
+              <p class="p4-color mb-3">
+                ✅ Empresas em Portugal valorizam currículos bem organizados e diretos. O Europass é um modelo aceito em toda a União Europeia e facilita a avaliação do seu perfil. Além disso, destaque suas experiências relevantes e adapte seu CV para cada vaga.
+<br>
+				<a href="https://europa.eu/europass/pt" target="_blank" class="p4-color fw-semibold pb-4" > 👉 Crie seu CV Europass aqui </a>
+				<br>
+              </p>
+              <p class="p4-color mb-3">
+                ✅ Use plataformas de emprego locais
+				Além do LinkedIn, há sites específicos para vagas em Portugal:
+				<br>
+| Net-Empregos (www.net-empregos.com)
+<br>
+| Sapo Emprego (emprego.sapo.pt)
+<br>
+| IEFP (Portal oficial do Instituto de Emprego e Formação Profissional)
+
+Manter um perfil atualizado no LinkedIn e ativar alertas de vagas nessas plataformas pode aumentar suas chances.
+              </p>
+
+              <p class="p4-color mb-3">
+                ✅ Muitas oportunidades surgem por indicação. Participe de eventos e grupos do seu setor no LinkedIn ou no Facebook. Se estiver em Portugal, procure meetups, feiras de emprego e eventos de networking para fazer contatos diretos com recrutadores e empresas.
+
+🚀 Bônus: Se precisar de visto de trabalho, busque empresas que patrocinam estrangeiros e esteja atento às regras do SEF (Serviço de Estrangeiros e Fronteiras).
+              </p>
+              <div class="my-3 my-md-6 rounded p-3 p-md-6">
+                <h3 class="p4-color mb-3 mb-md-6">Categorias</h3>
+                <div class="row">
+                  <a href="index.html #secao-servicos" class="p4-color fw-semibold pb-4">
+                    Apps
+                  </a>
+                  <a href="index.html #secao-servicos" class="p4-color fw-semibold pb-4">
+                    Sites
+                  </a>
+                  <a href="index.html #secao-servicos" class="p4-color fw-semibold pb-4">
+                    Marketing Digital
+                  </a>
+                  <a href="index.html #secao-servicos" class="p4-color fw-semibold pb-4">
+                    Otimização de SEO
+                  </a>
+                  <a href="index.html #secao-servicos" class="p4-color fw-semibold pb-4">
+                    Automação Web
+                  </a>
+                  <a href="index.html #secao-servicos" class="p4-color fw-semibold pb-4">
+                    Equipe Dedicada
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Blog Details Section end -->
+
+    <!-- Footer section start -->
+    <section class="bg11-color footer_section">
+      <div class="pt-120 pb-120">
+        <div class="container">
+          <div class="row g-6">
+            <div class="col-12 col-xl-4">
+              <div class="mb-3 mb-lg-6">
+                <img src="./assets/images/logo.png" alt="logo" />
+              </div>
+              <p class="p6-color fs-ten">
+                Temos mais de 15 anos de experiência. Ajudando você a superar desafios tecnológicos. Junte-se à próspera consultoria de soluções Avadora.
+              </p>
+              <div class="my-3 my-sm-5 my-md-10">
+                <button class="btn2">
+                  <span class="btn-text-one">Falar de Negócio</span>
+                  <span class="btn-text-two">Agora</span>
+                </button>
+              </div>
+              <div>
+                <h4 class="fs-five p6-color mb-2 mb-md-4">Nossas Redes Sociais</h4>
+                <div class="d-flex flex-wrap gap-3">
+                  <a
+                    href="javascriopt:void(0)"
+                    class="footer_icon d-flex justify-content-center align-items-center"
+                  >
+                    <i class="ph ph-facebook-logo fs-six"></i>
+                  </a>
+                  <a
+                    href="javascriopt:void(0)"
+                    class="footer_icon d-flex justify-content-center align-items-center"
+                  >
+                    <i class="ph ph-x-logo fs-six"></i>
+                  </a>
+                  <a
+                    href="javascriopt:void(0)"
+                    class="footer_icon d-flex justify-content-center align-items-center"
+                  >
+                    <i class="ph ph-linkedin-logo fs-six"></i>
+                  </a>
+                  <a
+                    href="javascriopt:void(0)"
+                    class="footer_icon d-flex justify-content-center align-items-center"
+                  >
+                    <i class="ph ph-instagram-logo fs-six"></i>
+                  </a>
+                  <a
+                    href="javascriopt:void(0)"
+                    class="footer_icon d-flex justify-content-center align-items-center"
+                  >
+                    <i class="ph ph-youtube-logo fs-six"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-xl-2">
+              <h4 class="fs-five p6-color mb-3 mb-md-5">Serviços</h4>
+              <a
+                href="index.html #secao-servicos"
+                class="d-flex align-items-center flex-shrink-0 gap-2 mb-2 mb-md-3"
+              >
+                <div>
+                  <img src="./assets/images/point.png" alt="point" />
+                </div>
+                <span class="fs-ten p6-color fw-medium footer_tag"
+                  >Apps</span
+                >
+              </a>
+              <a
+                href="index.html #secao-servicos"
+                class="d-flex align-items-center flex-shrink-0 gap-2 mb-2 mb-md-3"
+              >
+                <div>
+                  <img src="./assets/images/point.png" alt="point" />
+                </div>
+                <span class="fs-ten p6-color fw-medium footer_tag"
+                  >Sites</span
+                >
+              </a>
+              <a
+                href="index.html #secao-servicos"
+                class="d-flex align-items-center flex-shrink-0 gap-2 mb-2 mb-md-3"
+              >
+                <div>
+                  <img src="./assets/images/point.png" alt="point" />
+                </div>
+                <span class="fs-ten p6-color fw-medium footer_tag"
+                  >Marketing Digital</span
+                >
+              </a>
+              <a
+                href="index.html #secao-servicos"
+                class="d-flex align-items-center flex-shrink-0 gap-2 mb-2 mb-md-3"
+              >
+                <div>
+                  <img src="./assets/images/point.png" alt="point" />
+                </div>
+                <span class="fs-ten p6-color fw-medium footer_tag"
+                  >Otimização de SEO</span
+                >
+              </a>
+              <a
+                href="index.html #secao-servicos"
+                class="d-flex align-items-center flex-shrink-0 gap-2 mb-2 mb-md-3"
+              >
+                <div>
+                  <img src="./assets/images/point.png" alt="point" />
+                </div>
+                <span class="fs-ten p6-color fw-medium footer_tag"
+                  >Automação Web</span
+                >
+              </a>
+              <a
+                href="index.html #secao-servicos"
+                class="d-flex align-items-center flex-shrink-0 gap-2 mb-2 mb-md-3"
+              >
+                <div>
+                  <img src="./assets/images/point.png" alt="point" />
+                </div>
+                <span class="fs-ten p6-color fw-medium footer_tag"
+                  >Equipe Dedicada</span
+                >
+              </a>
+              <a
+                href="index.html #secao-consultoria"
+                class="d-flex align-items-center flex-shrink-0 gap-2 mb-2 mb-md-3"
+              >
+                <div>
+                  <img src="./assets/images/point.png" alt="point" />
+                </div>
+                <span class="fs-ten p6-color fw-medium footer_tag"
+                  >Consultoria ERP Protheus</span
+                >
+              </a>
+              
+            </div>
+            <div class="col-sm-6 col-xl-2">
+              <h4 class="fs-five p6-color mb-3 mb-md-5">Informações</h4>
+              <a
+                href="index.html#secao-time"
+                class="d-flex align-items-center flex-shrink-0 gap-2 mb-2 mb-md-3"
+              >
+                <div>
+                  <img src="./assets/images/point.png" alt="point" />
+                </div>
+                <span class="fs-ten p6-color fw-medium footer_tag">Time</span>
+              </a>
+              
+              <a
+                href="index.html#secao-consultoria"
+                class="d-flex align-items-center flex-shrink-0 gap-2 mb-2 mb-md-3"
+              >
+                <div>
+                  <img src="./assets/images/point.png" alt="point" />
+                </div>
+                <span class="fs-ten p6-color fw-medium footer_tag">Consultoria ERP Totvs</span>
+              </a>
+              <a
+                href="index.html#secao-portfolio"
+                class="d-flex align-items-center flex-shrink-0 gap-2 mb-2 mb-md-3"
+              >
+                <div>
+                  <img src="./assets/images/point.png" alt="point" />
+                </div>
+                <span class="fs-ten p6-color fw-medium footer_tag"
+                  >Portfolio</span
+                >
+              </a>
+              <a
+                href="index.html#secao-faq"
+                class="d-flex align-items-center flex-shrink-0 gap-2 mb-2 mb-md-3"
+              >
+                <div>
+                  <img src="./assets/images/point.png" alt="point" />
+                </div>
+                <span class="fs-ten p6-color fw-medium footer_tag">FAQs</span>
+              </a>
+              <a
+                href="index.html#secao-blog"
+                class="d-flex align-items-center flex-shrink-0 gap-2 mb-2 mb-md-3"
+              >
+                <div>
+                  <img src="./assets/images/point.png" alt="point" />
+                </div>
+                <span class="fs-ten p6-color fw-medium footer_tag">Blogs</span>
+              </a>
+              <a
+                href="javascriopt:void(0)"
+                class="d-flex align-items-center flex-shrink-0 gap-2 mb-2 mb-md-3"
+              >
+                <div>
+                  <img src="./assets/images/point.png" alt="point" />
+                </div>
+                <span class="fs-ten p6-color fw-medium footer_tag"
+                  >Novidades</span
+                >
+              </a>
+            </div>
+            <div class="col-12 col-xl-4">
+              <h4 class="fs-five p6-color mb-3 mb-md-5">Contato</h4>
+              <div
+                class="d-flex gap-2 gap-md-4 align-items-center mb-3 mb-md-5"
+              >
+                <i class="ph-fill ph-map-pin fs-six p6-color"></i>
+                <span>Av: Nações Unidas, 98 - T1</span>
+              </div>
+              <div
+                class="d-flex gap-2 gap-md-4 align-items-center mb-3 mb-md-5"
+              >
+                <i class="ph-fill ph-phone-incoming fs-six p6-color"></i>
+                <a href="tel:+1-847-555-5555">+55 (11) 9 4243 7977</a>
+              </div>
+              <div class="d-flex gap-2 gap-md-4 align-items-center">
+                <i class="ph-fill ph-envelope fs-six p6-color"></i>
+                <a href="mailto:someone@example.com">contato@avadora.com.br</a>
+              </div>
+
+              <div class="mt-5 mt-md-9 mt-md-18">
+                <h4 class="fs-four fw-semibold p6-color mb-2 mb-md-4">
+                  Newsletter
+                </h4>
+                <p class="fs-ten p6-color">
+                  Não deixe de assinar nossos novos feeds, preencha gentilmente o formulário abaixo.
+                </p>
+                <div
+                  class="d-flex gap-2 align-items-center border-bottom mt-5 mt-md-10 pb-3 pb-md-6"
+                >
+                  <input
+                    class="p6-color fs-ten px-2"
+                    placeholder="Seu e-mail"
+                  />
+                  <i class="ph-fill ph-paper-plane-tilt fs-three"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr class="border cus-border border-four my-0" />
+      <div
+        class="container d-flex sm:gap-3 flex-wrap justify-content-md-between justify-content-center py-3 py-md-6"
+      >
+        <span class="p6-color sm:fs-ten"
+          >Avadora © 2025 - Designed by @Estv</span
+        >
+        <div class="d-flex gap-4">
+          <a href="./termos/termo.html" target="_blank" class="p6-color sm:fs-ten">Termos & Condições</a>
+          <span class="p6-color sm:fs-ten">|</span>
+          <a href="./termos/politica.html" target="_blank" class="p6-color sm:fs-ten">Política de Privacidade</a>
+        </div>
+      </div>
+    </section>
+    <!-- Footer section end -->
+
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/plugins/plugins.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="./assets/js/custom-plugin.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        offset: 120,
+        duration: 700,
+        easing: "ease-in-out",
+      });
+    </script>
+  </body>
+</html>
